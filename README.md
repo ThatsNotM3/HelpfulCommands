@@ -13,7 +13,7 @@ Helpful Commands is a Minecraft Mod that adds different commands to the game. Th
 ✔️║ Mainline. Full Support.
 ***
 ### 1.16
-✔️║ Full Support.
+🔶║ Partial Support.
 ***
 ### 1.15 and lower
 ❌║ Not Supported.
