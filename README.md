@@ -4,7 +4,7 @@ Helpful Commands is a Minecraft Mod that adds different commands to the game. Th
 ## Links
 * [📥 Downloads](https://github.com/ThatsNotM3/HelpfulCommands/releases)
 * [📖 Documentation](https://github.com/ThatsNotM3/HelpfulCommands/wiki/Helpful-Commands-Minecraft-Mod-Documentation)
-* [🔨 CurseForge Page]()
+* [🔨 CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/helpful-commands)
 ## Game Versions Support and Compatibility
 ### 1.18
 🕐║ Not Supported yet.
