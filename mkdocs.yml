@@ -1,0 +1,64 @@
+site_name: Helpful Commands Minecraft mod
+nav:
+  - «🏠» Home: index.md
+  - «📥» Installation: installation.md
+  - «📃» Commands: commands.md
+theme:
+  name: material
+  logo: assets/images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.top
+    - navigation.prune
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.tooltips
+  language: en
+  palette:
+    - scheme: slate # Dark mode
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: black
+      accent: indigo
+    - scheme: default # Light mode
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: white
+      accent: indigo
+      
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/zkacdSH8Vu
+    - icon: fontawesome/brands/github
+      link: https://github.com/ThatsNotM3/HelpfulCommands
+
+copyright: |
+  &copy; 2023-present <a href="https://github.com/ThatsNotM3" target="_blank" rel="noopener">ThatsNotM3</a>
+
+extra_css:
+  - stylesheets/extra.css
