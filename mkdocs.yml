@@ -30,12 +30,12 @@ theme:
         name: Switch to light mode
       primary: black
       accent: indigo
-    - scheme: default # Light mode
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-      primary: white
-      accent: indigo
+    # - scheme: default # Light mode
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: Switch to dark mode
+    #   primary: white
+    #   accent: indigo
       
 markdown_extensions:
   - attr_list
