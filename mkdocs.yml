@@ -25,9 +25,9 @@ theme:
   language: en
   palette:
     - scheme: slate # Dark mode
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+      # toggle:
+      #   icon: material/brightness-4
+      #   name: Switch to light mode
       primary: black
       accent: indigo
     # - scheme: default # Light mode
