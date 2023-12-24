@@ -73,9 +73,6 @@ Browse all the commands by categories:material-information:{ title="Categories w
         * `get`: print the coordinates to chat
         * `tp`: teleport to the position
 
-!!! failure "Temporarily not available in the latest alpha"
-    Currently, this command does not work in the early alpha preview of Helpful Commands 3.0.0.
-
 ### /dimension
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
@@ -155,7 +152,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     </div>
 </div>
 ???+ hc-command "Command Info & Usage"
-    > Teleport to the block you are looking at, or in the direction you are looking at with a given distance
+    > Teleport to your or the world's spawn point
 
     ``` { .yaml .no-copy }
     /spawn <type> [action]
@@ -171,9 +168,6 @@ Browse all the commands by categories:material-information:{ title="Categories w
         
         * `get`: print the coordinates to chat
         * `tp`: teleport to the spawn
-
-!!! failure "Temporarily not available in the latest alpha"
-    Currently, this command does not work in the early alpha preview of Helpful Commands 3.0.0.
 
 ## Time
 ### /day
@@ -312,7 +306,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ```
 
     ??? abstract "Parameters"
-        `target(s)`: player(s)
+        `target(s)`: entity(-ies)
 
 ### /ignite
 <div class="hc-mic-holder">
@@ -334,8 +328,6 @@ Browse all the commands by categories:material-information:{ title="Categories w
         `target(s)`: entity(-ies)
         <br>
         `duration`: time to burn (in seconds)
-!!! failure "Temporarily not available in the latest alpha"
-    Currently, this command does not work in the early alpha preview of Helpful Commands 3.0.0.
 
 ### /killitems
 <div class="hc-mic-holder">
