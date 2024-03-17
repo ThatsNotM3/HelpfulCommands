@@ -94,9 +94,6 @@ Browse all the commands by categories:material-information:{ title="Categories w
         <br>
         `target(s)`: entity(-ies)
 
-!!! failure "Temporarily not available in the latest alpha"
-    Currently, this command does not work in the early alpha preview of Helpful Commands 3.0.0.
-
 ### /home
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
@@ -119,9 +116,6 @@ Browse all the commands by categories:material-information:{ title="Categories w
         - `set`: update the home position
         - `get`: print the coordinates to chat
         - `tp`: teleport to the position
-
-!!! failure "Temporarily not available in the latest alpha"
-    Currently, this command does not work in the early alpha preview of Helpful Commands 3.0.0.
 
 ### /jump
 <div class="hc-mic-holder">
@@ -217,13 +211,13 @@ Browse all the commands by categories:material-information:{ title="Categories w
     > Create an explosion at your cursor position with a given distance or near the block you are looking at
 
     ``` { .yaml .no-copy }
-    /explosion [distance]
+    /explosion <power> [distance]
     ```
 
     ??? abstract "Parameters"
+        `power`: how powerful the explosion will be
+        <br>
         `distance`: how far away from you the explosion will be created. If not specified, it will be created near the block you are looking at.
-!!! failure "Temporarily not available in the latest alpha"
-    Currently, this command does not work in the early alpha preview of Helpful Commands 3.0.0.
 
 ### /extinguish
 <div class="hc-mic-holder">
@@ -363,8 +357,6 @@ Browse all the commands by categories:material-information:{ title="Categories w
 
     ??? abstract "Parameters"
         `distance`: how far away from you the lightning will spawn. If not specified, it will spawn near the block you are looking at.
-!!! failure "Temporarily not available in the latest alpha"
-    Currently, this command does not work in the early alpha preview of Helpful Commands 3.0.0.
 
 ### /rename
 <div class="hc-mic-holder">
