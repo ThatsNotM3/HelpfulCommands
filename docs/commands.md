@@ -1,4 +1,4 @@
-## 🪧▪ Parameters
+## 🗳️▪ Parameters
 Commands have parameters (arguments) that you may need to specify for them to work.
 
 * `[param]`: optional parameter
@@ -49,6 +49,111 @@ Browse all the commands by categories:material-information:{ title="Categories w
         `target(s)`: player(s)
         <br>
         `state`: boolean(true/false). If not specified, invulnerability will be toggled for each target (invulnerable -> vulnerable; vulnerable -> invulnerable)
+
+## Entities and Players
+### /extinguish
+<div class="hc-mic-holder">
+    <div class="hc-mic-entry hc-mic-version">
+        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
+    </div>
+    <div class="hc-mic-entry hc-mic-permission">
+        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.entities.extinguish</p>
+    </div>
+</div>
+???+ hc-command "Command Info & Usage"
+    > Extinguish target(s)
+
+    ``` { .yaml .no-copy }
+    /extinguish [target(s)]
+    ```
+
+    ??? abstract "Parameters"
+        `target(s)`: entity(-ies)
+
+### /feed
+<div class="hc-mic-holder">
+    <div class="hc-mic-entry hc-mic-version">
+        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
+    </div>
+    <div class="hc-mic-entry hc-mic-permission">
+        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.entities.feed</p>
+    </div>
+</div>
+???+ hc-command "Command Info & Usage"
+    > Feed and saturate target(s)
+
+    ``` { .yaml .no-copy }
+    /feed [target(s)]
+    ```
+
+    ??? abstract "Parameters"
+        `target(s)`: player(s)
+
+### /gm
+<div class="hc-mic-holder">
+    <div class="hc-mic-entry hc-mic-version">
+        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
+    </div>
+    <div class="hc-mic-entry hc-mic-permission">
+        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.entities.gm</p>
+    </div>
+</div>
+???+ hc-command "Command Info & Usage"
+    > Feed and saturate target(s)
+
+    ``` { .yaml .no-copy }
+    /gm <gameMode> [target(s)]
+    ```
+
+    ??? abstract "Parameters"
+        `gameMode`:
+        
+        * `a`: adventure
+        * `c`: creative
+        * `s`: survival
+        * `sp`: spectator
+
+        `target(s)`: player(s)
+
+### /heal
+<div class="hc-mic-holder">
+    <div class="hc-mic-entry hc-mic-version">
+        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
+    </div>
+    <div class="hc-mic-entry hc-mic-permission">
+        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.entities.heal</p>
+    </div>
+</div>
+???+ hc-command "Command Info & Usage"
+    > Restore health for target(s)
+
+    ``` { .yaml .no-copy }
+    /heal [target(s)]
+    ```
+
+    ??? abstract "Parameters"
+        `target(s)`: player(s)
+
+### /ignite
+<div class="hc-mic-holder">
+    <div class="hc-mic-entry hc-mic-version">
+        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
+    </div>
+    <div class="hc-mic-entry hc-mic-permission">
+        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.entities.ignite</p>
+    </div>
+</div>
+???+ hc-command "Command Info & Usage"
+    > Set target(s) on fire for a specified number of seconds
+
+    ``` { .yaml .no-copy }
+    /ignite <target(s)> <duration>
+    ```
+
+    ??? abstract "Parameters"
+        `target(s)`: entity(-ies)
+        <br>
+        `duration`: time to burn (in seconds)
 
 ## Teleportation
 ### /back
@@ -146,7 +251,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     </div>
 </div>
 ???+ hc-command "Command Info & Usage"
-    > Teleport to your or the world's spawn point
+    > Teleport to the block you are looking at, or in the direction you are looking at with a given distance
 
     ``` { .yaml .no-copy }
     /spawn <type> [action]
@@ -196,132 +301,45 @@ Browse all the commands by categories:material-information:{ title="Categories w
     /night
     ```
 
-## Uncategorized
+## Utility
+### /rename
+<div class="hc-mic-holder">
+    <div class="hc-mic-entry hc-mic-version">
+        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/3.0.0">3.0.0</a></p>
+    </div>
+    <div class="hc-mic-entry hc-mic-permission">
+        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.utility.rename</p>
+    </div>
+</div>
+???+ hc-command "Command Info & Usage"
+    > Rename an item in your main hand
 
+    ``` { .yaml .no-copy }
+    /rename [newName]
+    ```
+
+    ??? abstract "Parameters"
+        `newName`: new name for the item. If not specified, a set custom name will be removed.
+
+## World
 ### /explosion
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
     </div>
     <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.uncategorized.explosion</p>
+        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.world.explosion</p>
     </div>
 </div>
 ???+ hc-command "Command Info & Usage"
     > Create an explosion at your cursor position with a given distance or near the block you are looking at
 
     ``` { .yaml .no-copy }
-    /explosion <power> [distance]
+    /explosion [distance]
     ```
 
     ??? abstract "Parameters"
-        `power`: how powerful the explosion will be
-        <br>
         `distance`: how far away from you the explosion will be created. If not specified, it will be created near the block you are looking at.
-
-### /extinguish
-<div class="hc-mic-holder">
-    <div class="hc-mic-entry hc-mic-version">
-        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
-    </div>
-    <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.uncategorized.extinguish</p>
-    </div>
-</div>
-???+ hc-command "Command Info & Usage"
-    > Extinguish target(s)
-
-    ``` { .yaml .no-copy }
-    /extinguish [target(s)]
-    ```
-
-    ??? abstract "Parameters"
-        `target(s)`: entity(-ies)
-
-### /feed
-<div class="hc-mic-holder">
-    <div class="hc-mic-entry hc-mic-version">
-        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
-    </div>
-    <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.uncategorized.feed</p>
-    </div>
-</div>
-???+ hc-command "Command Info & Usage"
-    > Feed and saturate target(s)
-
-    ``` { .yaml .no-copy }
-    /feed [target(s)]
-    ```
-
-    ??? abstract "Parameters"
-        `target(s)`: player(s)
-
-### /gm
-<div class="hc-mic-holder">
-    <div class="hc-mic-entry hc-mic-version">
-        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
-    </div>
-    <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.uncategorized.gm</p>
-    </div>
-</div>
-???+ hc-command "Command Info & Usage"
-    > Feed and saturate target(s)
-
-    ``` { .yaml .no-copy }
-    /gm <gameMode> [target(s)]
-    ```
-
-    ??? abstract "Parameters"
-        `gameMode`:
-        
-        * `a`: adventure
-        * `c`: creative
-        * `s`: survival
-        * `sp`: spectator
-
-        `target(s)`: player(s)
-
-### /heal
-<div class="hc-mic-holder">
-    <div class="hc-mic-entry hc-mic-version">
-        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
-    </div>
-    <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.uncategorized.heal</p>
-    </div>
-</div>
-???+ hc-command "Command Info & Usage"
-    > Restore health for target(s)
-
-    ``` { .yaml .no-copy }
-    /heal [target(s)]
-    ```
-
-    ??? abstract "Parameters"
-        `target(s)`: entity(-ies)
-
-### /ignite
-<div class="hc-mic-holder">
-    <div class="hc-mic-entry hc-mic-version">
-        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
-    </div>
-    <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.uncategorized.ignite</p>
-    </div>
-</div>
-???+ hc-command "Command Info & Usage"
-    > Set target(s) on fire for a specified number of seconds
-
-    ``` { .yaml .no-copy }
-    /ignite <target(s)> <duration>
-    ```
-
-    ??? abstract "Parameters"
-        `target(s)`: entity(-ies)
-        <br>
-        `duration`: time to burn (in seconds)
 
 ### /killitems
 <div class="hc-mic-holder">
@@ -329,7 +347,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
     </div>
     <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.uncategorized.killitems</p>
+        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.world.killitems</p>
     </div>
 </div>
 ???+ hc-command "Command Info & Usage"
@@ -338,14 +356,13 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ``` { .yaml .no-copy }
     /killitems
     ```
-
 ### /lightning
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
     </div>
     <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.uncategorized.lightning</p>
+        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.world.lightning</p>
     </div>
 </div>
 ???+ hc-command "Command Info & Usage"
@@ -357,22 +374,3 @@ Browse all the commands by categories:material-information:{ title="Categories w
 
     ??? abstract "Parameters"
         `distance`: how far away from you the lightning will spawn. If not specified, it will spawn near the block you are looking at.
-
-### /rename
-<div class="hc-mic-holder">
-    <div class="hc-mic-entry hc-mic-version">
-        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/3.0.0">3.0.0</a></p>
-    </div>
-    <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.command.uncategorized.rename</p>
-    </div>
-</div>
-???+ hc-command "Command Info & Usage"
-    > Rename an item in your main hand
-
-    ``` { .yaml .no-copy }
-    /rename <newName>
-    ```
-
-    ??? abstract "Parameters"
-        `newName`: new name for the item (string)

@@ -1,7 +1,6 @@
 site_name: Helpful Commands Minecraft mod
 nav:
   - «🏠» Home: index.md
-  - «📥» Installation: installation.md
   - «📃» Commands: commands.md
 theme:
   name: material
@@ -53,12 +52,12 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/zkacdSH8Vu
+      link: https://discord.gg/RHd8P5hps4
     - icon: fontawesome/brands/github
-      link: https://github.com/ThatsNotM3/HelpfulCommands
+      link: https://github.com/Expecticament/HelpfulCommands
 
 copyright: |
-  &copy; 2023-present <a href="https://github.com/ThatsNotM3" target="_blank" rel="noopener">ThatsNotM3</a>
+  &copy; <a href="https://github.com/Expecticament" target="_blank" rel="noopener">Expecticament</a>. All Rights Reserved
 
 extra_css:
   - stylesheets/extra.css

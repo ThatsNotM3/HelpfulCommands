@@ -68,3 +68,15 @@
     -webkit-mask-image: var(--md-admonition-icon--hc-command);
     mask-image: var(--md-admonition-icon--hc-command);
 }
+
+.devin-badge{
+    margin: 0 5px 0 5px;
+    transition: cubic-bezier(0, 0, 0, 1);
+    transition-duration: 0.25s;
+}
+.devin-badge:hover{
+    scale: 1.025;
+}
+.devin-badge:active{
+    scale: 0.975;
+}

@@ -118,7 +118,11 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
     
   
 </form>
@@ -283,17 +287,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    «🏠» Home
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="." class="md-nav__link md-nav__link--active">
         
@@ -304,80 +299,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#about-mod" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❓▪ About Mod
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="❓▪ About Mod">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
-    <span class="md-ellipsis">
-      ✨▪ Features
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#docs-nomenclature" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚▪ Docs nomenclature
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚▪ Docs nomenclature">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mod-version" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mod version
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#permission-id" class="md-nav__link">
-    <span class="md-ellipsis">
-      Permission ID
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -438,16 +359,14 @@
                   
 
 
-  <h1>«🏠» Home</h1>
-
 <p>Welcome to the Helpful Commands Minecraft Mod Documentation! Here you will be able to find a lot of useful information related to the mod, such as its main features, commands, configuration guide, and more!</p>
-<h2 id="about-mod">❓▪ About Mod</h2>
+<h1 id="about-mod">❓▪ About Mod</h1>
 <figure style="text-align:left;">
     <img align="left" alt="Logo" src="assets/images/favicon.png" width="160px" style="margin: 0 1em 1em 1em">
     <strong>Helpful Commands</strong> is a Minecraft mod that adds lots of useful commands, as well as shortcuts for existing vanilla ones, making your experience better, more optimized, and flexible. Easy to configure, get used to, and then enjoy in the long run.
 </figure>
 
-<h3 id="features">✨▪ Features</h3>
+<h1 id="features">✨▪ Features</h1>
 <ul>
 <li><strong>Lots of new useful commands:</strong> save your time, enhance your experience, and enjoy new features</li>
 <li><strong>Flexible and easily configurable:</strong> toggle each individual command and set permissions. Make command available only to privileged players, or to literally everyone on the server</li>
@@ -455,23 +374,10 @@
 <li><strong>Interactive output:</strong> hover on some text and notice how it provides some additional information or even shortcuts</li>
 <li><strong>Open Source:</strong> something is missing? Make proposals or submit your own ideas on GitHub</li>
 </ul>
-<h2 id="docs-nomenclature">📚▪ Docs nomenclature</h2>
-<h3 id="mod-version">Mod version</h3>
-<div class="hc-mic-holder">
-    <div class="hc-mic-entry hc-mic-version">
-        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
-    </div>
-    <div class="hc-mic-entry hc-mic-version">
-        <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/1.0.1">1.0.0</a> - <a href="https://github.com/ThatsNotM3/HelpfulCommands/releases/tag/2.0.0">2.0.0</a></p>
-    </div>
-</div>
+<h1 id="docs-nomenclature">📚▪ Docs nomenclature</h1>
+<h2 id="mod-version">Mod version</h2>
 <p>Usually it resembles a mod version that introduced a particular feature or command.</p>
-<h3 id="permission-id">Permission ID</h3>
-<div class="hc-mic-holder">
-    <div class="hc-mic-entry hc-mic-permission">
-        <div class="hc-mic-logo"><span class="twemoji" title="Permission ID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1m8 1h-6v-2h6v2m0-4h-6v-2h6v2m0-4h-6V8h6v2m-7-4h-2V2h2v4Z"></path></svg></span></div><p class="hc-mic-text">helpfulcommands.some.permission.id</p>
-    </div>
-</div>
+<h2 id="permission-id">Permission ID</h2>
 <p>Specifies the permission ID that the player must have in order to use a particular feature or command.</p>
 
 

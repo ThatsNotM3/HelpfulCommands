@@ -17,6 +17,10 @@
     scale:1.025;
 }
 
+/* .md-typeset h1{
+    margin: 1em 0 0.25em 0;
+} */
+
 .hc-miniInfoCards{
     display:flex;
 }
