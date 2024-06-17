@@ -7,8 +7,8 @@ Commands have parameters (arguments) that you may need to specify for them to wo
 ## 📜▪ Command List
 Browse all the commands by categories:material-information:{ title="Categories were introduced in Helpful Commands v. 3.0.0" }. See information such as description, parameters, and permissions:material-information:{ title="Fabric Permissions API support was introduced in Helpful Commands v. 3.0.0" } required to use the command.
 
-## Abilities
-### /fly
+### Abilities
+#### /fly
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/2.0.0">2.0.0</a></p>
@@ -29,7 +29,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
         <br>
         `state`: boolean(true/false). If not specified, flying will be toggled for each target (can fly -> can't fly; can't fly -> can fly)
 
-### /god
+#### /god
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/2.0.0">2.0.0</a></p>
@@ -50,8 +50,8 @@ Browse all the commands by categories:material-information:{ title="Categories w
         <br>
         `state`: boolean(true/false). If not specified, invulnerability will be toggled for each target (invulnerable -> vulnerable; vulnerable -> invulnerable)
 
-## Entities and Players
-### /extinguish
+### Entities and Players
+#### /extinguish
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -70,7 +70,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ??? abstract "Parameters"
         `target(s)`: entity(-ies)
 
-### /feed
+#### /feed
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -89,7 +89,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ??? abstract "Parameters"
         `target(s)`: player(s)
 
-### /gm
+#### /gm
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -115,7 +115,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
 
         `target(s)`: player(s)
 
-### /heal
+#### /heal
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -134,7 +134,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ??? abstract "Parameters"
         `target(s)`: player(s)
 
-### /ignite
+#### /ignite
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -155,8 +155,8 @@ Browse all the commands by categories:material-information:{ title="Categories w
         <br>
         `duration`: time to burn (in seconds)
 
-## Teleportation
-### /back
+### Teleportation
+#### /back
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -178,7 +178,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
         * `get`: print the coordinates to chat
         * `tp`: teleport to the position
 
-### /dimension
+#### /dimension
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -200,7 +200,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
         <br>
         `target(s)`: entity(-ies)
 
-### /home
+#### /home
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -223,7 +223,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
         - `get`: print the coordinates to chat
         - `tp`: teleport to the position
 
-### /jump
+#### /jump
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -242,7 +242,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ??? abstract "Parameters"
         `distance`: how far you will be teleported. If not specified, you will be teleported to the block you are looking at.
 
-### /spawn
+#### /spawn
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -269,8 +269,8 @@ Browse all the commands by categories:material-information:{ title="Categories w
         * `get`: print the coordinates to chat
         * `tp`: teleport to the spawn
 
-## Time
-### /day
+### Time
+#### /day
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -286,7 +286,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     /day
     ```
 
-### /night
+#### /night
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -302,8 +302,8 @@ Browse all the commands by categories:material-information:{ title="Categories w
     /night
     ```
 
-## Utility
-### /rename
+### Utility
+#### /rename
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/3.0.0">3.0.0</a></p>
@@ -322,7 +322,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ??? abstract "Parameters"
         `newName`: new name for the item. If not specified, a set custom name will be removed.
 
-### /repair
+#### /repair
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/3.0.0">3.0.0</a></p>
@@ -341,8 +341,8 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ??? abstract "Parameters"
         `target(s)`: player(s)
 
-## World
-### /explosion
+### World
+#### /explosion
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -361,7 +361,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ??? abstract "Parameters"
         `distance`: how far away from you the explosion will be created. If not specified, it will be created near the block you are looking at.
 
-### /killitems
+#### /killitems
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>
@@ -376,7 +376,7 @@ Browse all the commands by categories:material-information:{ title="Categories w
     ``` { .yaml .no-copy }
     /killitems
     ```
-### /lightning
+#### /lightning
 <div class="hc-mic-holder">
     <div class="hc-mic-entry hc-mic-version">
         <div class="hc-mic-logo"><span class="twemoji" title="Mod version"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 7A1.5 1.5 0 0 1 4 5.5 1.5 1.5 0 0 1 5.5 4 1.5 1.5 0 0 1 7 5.5 1.5 1.5 0 0 1 5.5 7m15.91 4.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59.55 0 1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.56-.23-1.06-.59-1.42Z"></path></svg></span></div><p class="hc-mic-text"><a href="https://github.com/Expecticament/HelpfulCommands/releases/tag/1.0.1">1.0.0</a></p>

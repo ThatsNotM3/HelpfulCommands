@@ -1,7 +1,10 @@
 site_name: Helpful Commands Minecraft mod
+site_url: https://expecticament.github.io/HelpfulCommands
 nav:
   - «🏠» Home: index.md
   - «📃» Commands: commands.md
+  - «⚙️» Configuration: configuration.md
+  - «🔐» Permission Management: permissionManagement.md
 theme:
   name: material
   logo: assets/images/favicon.png
