@@ -1,6 +1,3 @@
-!!! warning
-    Helpful Commands 3.0.0 has just been released. It will take some time to write and update the documentation on how to configure the mod and on permissions. Please wait. For now, feel free to ask questions in our [Discord Server](https://discord.gg/RHd8P5hps4).
-
 Helpful Commands is very flexible in terms of configuration. Everything can be done directly in the game and there is no need to manually tinker with the config file.
 
 ## 🔰▪ Basics
@@ -26,6 +23,14 @@ All configuration is done with the `/hc config` command. If you don't have a `co
 
 #### On integrated server
 For security reasons, only the host can configure the mod. Other players will get an error regardless of their OP level and permissions.
+
+### Config file location
+If you need the config file, you can find it here: `(world root directory)/config/(filename).json`
+
+`filename`:
+
+- Since 3.0.0: `helpfulcommands3.json`
+- Since 1.0.0: `hcConfig.json`
 
 ## 📃▪ Command management
 <div class="hc-mic-entry hc-mic-permission" style="margin-right: 10px">
@@ -58,6 +63,19 @@ This command allows you to toggle the public state of the command: <br>
 </div>
 
 ### Query current value
+Use this command to see the current value of the config field:<br>
 `/hc config manageField <field name> query`
+
+
 ### Update value
+Use this command to set the new value of the field:<br>
 `/hc config manageField <field name> set <new value>`
+
+!!! tip
+    You can see all available fields, their current values and descriptions in one place in the game by simply typing `/hc config` without any other parameters. You can also click on the current value to edit it.
+
+### List of fields
+#### explosionPowerLimit
+> Default value: `15`
+
+Maximum power limit for /explosion command. Be careful: strong explosions are destructive and can cause lag.
