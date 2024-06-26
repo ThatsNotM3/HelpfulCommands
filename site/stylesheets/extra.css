@@ -23,6 +23,8 @@
 .hc-mic-holder{
     display:flex;
     margin-top:-10px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .hc-mic-entry{
     display:flex;
@@ -30,12 +32,13 @@
     max-height: 30px;
     width: -moz-fit-content;
     width: fit-content;
-    margin: 0 2px 6px 2px;
+    margin: 2px;
     padding: 0 5px 0 5px;
 }
 .hc-mic-logo{
     margin-right: 5px;
     width: 18px;
+    display: flex;
 }
 .hc-mic-text{
     font-weight: bold;
