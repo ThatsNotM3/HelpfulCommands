@@ -482,6 +482,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#important-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Important notes
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -536,21 +545,46 @@
 <h3 id="examples">Examples</h3>
 <p><a href="https://luckperms.net/">LuckPerms</a> was used in all the examples. We assume that you already have a basic understanding of how to use the tool, so we will skip the setup phase and jump right into permissions management. If that's not the case, please read the tool's documentation or watch some tutorials.</p>
 <h4 id="command-permissions_1">Command permissions</h4>
-<p>The permission ID for basic command looks like this: <code>helpfulcommands.command.(category).(command name)</code></p>
+<p><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2139.svg" title=":information_source:" /> - The permission ID for basic command looks like this: <code>helpfulcommands.command.(category).(command name)</code></p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>You can manage the entire category or a single command.</p>
 </div>
 <p>In this example, we'll allow the player to use all the commands in the <strong>Players &amp; Entities</strong> category and a <code>/fly</code> command.</p>
-<figure style="text-align:left;">
-    <img align="left" alt="Commands1" src="../assets/images/permissionManagementExamples/commands1.png" width="160px" style="margin: 0 1em 1em 0">
-    Let's start with the category. In the LuckPerms web editor we will select our player, and then select the permission ID of the category (in our case its <code>helpfulcommands.commands.entities</code>).
+<p>Let's start with the category. In the LuckPerms web editor we will select our player, and then select the permission ID of the category (in our case its <code>helpfulcommands.commands.entities</code>):</p>
+<figure>
+  <img alt="Commands1" src="../assets/images/permissionManagementExamples/commands1.png" width="800" />
 </figure>
-
-<p>Let's start with the category. In the LuckPerms web editor we will select our player, and then select the permission ID of the category (in our case its <code>helpfulcommands.commands.entities</code>).</p>
-<p>Great! Now for the <code>/fly</code> command. In this case, we won't select the whole <strong>Abilities</strong> category, but the permission ID of the command itself (for the <code>/fly</code> command its <code>helpfulcommands.commands.abilities.fly</code>).</p>
+<p>Great! Now for the <code>/fly</code> command. In this case, we won't select the whole <strong>Abilities</strong> category, but the permission ID of the command itself (for the <code>/fly</code> command its <code>helpfulcommands.commands.abilities.fly</code>):</p>
+<figure>
+  <img alt="Commands2" src="../assets/images/permissionManagementExamples/commands2.png" width="800" />
+</figure>
+<p>That's all we need. We leave the value at <code>true</code>, click the <strong>Add</strong> button and apply the changes. Here's the result in the game:</p>
+<figure>
+  <img alt="Commands3" src="../assets/images/permissionManagementExamples/commands3.png" width="800" />
+  <figcaption>As expected, I can only use the commands in the <strong>Players &amp; Entities</strong> category and the <code>/fly</code> command.</figcaption>
+</figure>
 <h4 id="config-permissions_1">Config permissions</h4>
-<p>The typical config permission ID looks like this: <code>helpfulcommands.config.*</code></p>
+<p><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2139.svg" title=":information_source:" /> - The typical config permission ID looks like this: <code>helpfulcommands.config.*</code></p>
+<p>In this example, we'll allow the player to manage commands.</p>
+<p>Similar to <strong>Command permissions</strong>, we will find the ID in the LuckPerms web editor (in this case its <code>helpfulcommands.config.managecommand</code>):</p>
+<figure>
+  <img alt="Config1" src="../assets/images/permissionManagementExamples/config1.png" width="800" />
+</figure>
+<p>After selecting the permission, we leave the value at <code>true</code>, click the <strong>Add</strong> button and apply the changes. That's it! Now I can manage all the commands:</p>
+<figure>
+  <img alt="Config2" src="../assets/images/permissionManagementExamples/config2.png" width="800" />
+  <figcaption>We can see that I can now toggle commands and make them public or restricted.</figcaption>
+</figure>
+<h3 id="important-notes">Important notes</h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Public commands override permissions: if the command is public, it can be used by anyone, regardless of their permissions.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Players with the <code>helpfulcommands.config.managecommand</code> permission will always be able to use all commands, regardless of their command permissions.</p>
+</div>
 
 
 
